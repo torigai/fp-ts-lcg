@@ -17,7 +17,7 @@ npm install fp-ts @no-day/fp-ts-lcg
 ```js
 // index.js
 
-const lcg = require("@no-day/lcg");
+const lcg = require("@no-day/fp-ts-lcg");
 
 let seed = lcg.mkSeed(3532);
 
@@ -45,6 +45,6 @@ node index.js
 
 The generated seeds are pseudo random. Meaning, that whenever the same initial seed is chosen (here it's 3532), the results of the next seeds will be always the same. The generated seeds will be equally distributed in the range of `lcg.seedMin` and `lcg.seedMax`.
 
-# Dcoumentation
+# Documentation
 
 - [API](https://no-day.github.io/fp-ts-lcg/modules/index.ts.html)
